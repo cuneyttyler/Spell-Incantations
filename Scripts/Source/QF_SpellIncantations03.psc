@@ -1,23 +1,16 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
 ;NEXT FRAGMENT INDEX 0
-Scriptname QF__01001893 Extends Quest Hidden
+Scriptname QF_SpellIncantations03 Extends Quest Hidden
 
 ;BEGIN ALIAS PROPERTY Aran
 ;ALIAS PROPERTY TYPE ReferenceAlias
 ReferenceAlias Property Alias_Aran Auto
-
-Book Property SpellTomeFlameThrallIncantation Auto
-Book Property SpellTomeFrostThrallincantation Auto
-Book Property SpellTomeStormThrallIncantation Auto
-Book Property SpellTomeFlameThrallIncantationFemale Auto
-Book Property SpellTomeFrostThrallincantationFemale Auto
-Book Property SpellTomeStormThrallIncantationFemale Auto
 ;END ALIAS PROPERTY
 
 ;BEGIN FRAGMENT Fragment_7
 Function Fragment_7()
 ;BEGIN CODE
-;CODE NOT LOADED
+SetObjectiveDisplayed(10)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -41,3 +34,15 @@ EndFunction
 ;END FRAGMENT
 
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
+
+Book Property SpellTomeFlameThrallIncantation Auto
+
+Book Property SpellTomeFrostThrallincantation Auto
+
+Book Property SpellTomeStormThrallIncantation Auto
+
+Book Property SpellTomeFlameThrallIncantationFemale Auto
+
+Book Property SpellTomeFrostThrallincantationFemale Auto
+
+Book Property SpellTomeStormThrallIncantationFemale Auto
